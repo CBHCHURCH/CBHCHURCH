@@ -9,6 +9,7 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    background-color: #E6F2F8; /* 배경색 변경 */
 }
 
 /* 헤더 */
@@ -16,7 +17,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f8f8f8;
+    background-color: #336699; /* 배경색 변경 */
     padding: 20px 40px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -24,7 +25,7 @@ header {
 .logo {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #333;
+    color: #fff; /* 글자색 변경 */
 }
 
 nav {
@@ -40,7 +41,7 @@ nav li {
 }
 
 nav a {
-    color: #666;
+    color: #fff; /* 글자색 변경 */
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
@@ -49,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #333;
+    color: #BFD8DC; /* 글자색 변경 */
 }
 
 /* 메인 */
@@ -94,12 +95,10 @@ img {
     max-width: 100%;
 }
 
-/* 푸터 */
 footer {
-    background-color: #f8f8f8;
-    padding: 20px 40px;
+    background-color: #BFD8DC; /* 배경색 변경 */
+    padding: 20px;
     text-align: center;
-    font-size: 1.2rem;
-    color: #666;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #fff; /* 글자색 변경 */
 }
